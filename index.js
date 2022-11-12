@@ -9,13 +9,10 @@ const { API_BASE_URL } = process.env;
 const app = express();
 app.use(morgan("dev"));
 app.use(
-	"/weather",
+	"/",
 	createProxyMiddleware({
 		target: API_BASE_URL,
 		changeOrigin: true,
-		pathRewrite: {
-			"^/": "",
-		},
 	})
 );
 
