@@ -14,7 +14,7 @@ app.use(
 		target: API_BASE_URL,
 		changeOrigin: true,
 		pathRewrite: {
-			"^/weather": "",
+			"^/": "",
 		},
 	})
 );
