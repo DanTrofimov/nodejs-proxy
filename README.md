@@ -12,7 +12,7 @@ Setup `.env`, see `.env.example`
 | Name  | Description  |
 |---|---|
 | API_BASE_URL | Specify API URL to proxy |
-| PORT  | Port of Express proxy running |
+| PORT  | Port of proxy server running |
 
 Start server locally
 ```bash
